@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+
+    <body>
+        <script>
+            function change () {
+                if ( change.style.backgorundColor == 'blue' ) {
+                    change.style.backgorundColor = 'green'
+                }
+
+                else if ( change.style.backgorundColor == 'green' ) {
+                    change.style.backgorundColor = 'red'
+                }
+
+                else if ( change.style.backgorundColor == 'red' ) {
+                    change.style.backgorundColor = 'blue'
+                }
+            }
+            console.log( "%cBH" + "%cAR" + "%cAT", "background: orange; font-size:80px;", "background:blue; color:white; border-radius:50%; font-size:80px;", "background:green; font-size:80px;" );
+            // setInterval(change,1000)
+
+        </script>
+    </body>
+
+</html>
